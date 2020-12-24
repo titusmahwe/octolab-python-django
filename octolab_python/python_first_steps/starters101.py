@@ -53,3 +53,21 @@ print(number1 == number2)
 #You can also convert Integers to floats and vice versa
 print(int(9.8))
 print(float(5))
+
+
+#Lists in python
+names = ['titus', 'jack', 'john', 'jane']
+print(names)
+print(len(names))
+fruits = list()
+fruits.append('banana')
+print(fruits)
+
+#Tuple in python
+archive = ('data', 'people', 'structures')
+print(archive)
+print(type(archive))
+a,b,c = ('one','two','three')
+print(a,b,c)
+
+#Dictionary in python
